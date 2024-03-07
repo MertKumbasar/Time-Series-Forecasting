@@ -1,0 +1,88 @@
+body {
+  background-color: #1f1f1f;
+  color: #fff;
+}
+
+.totalForm {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #444;
+  border-radius: 5px;
+  background-color: #333;
+}
+
+.form-box {
+  margin-bottom: 20px;
+}
+
+.form-box label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+}
+
+.form-box input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #555;
+  border-radius: 5px;
+  background-color: #444; 
+  color: #fff; 
+}
+
+.form-select label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+}
+
+.form-select select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #555; 
+  border-radius: 5px;
+  background-color: #444; 
+  color: #fff;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #007bff;
+  color: #fff; 
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #0056b3; 
+}
+
+.api-result {
+  margin-top: 20px;
+  border: 1px solid #444;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: #333; 
+  text-align: center; 
+}
+
+.api-result h2 {
+  margin-bottom: 10px;
+  font-family: Arial, sans-serif;
+}
+
+.api-result img {
+  max-width: 25%;
+  height: auto;
+  margin-bottom: 10px;
+  display: block; 
+  margin: 0 auto;
+  border: 7px solid #555; 
+}
